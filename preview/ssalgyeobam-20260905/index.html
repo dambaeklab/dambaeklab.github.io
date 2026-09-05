@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=860">
+<title>담백랩 쌀겨밤 — 상세페이지 미리보기 (내부 검수용)</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600;700;900&family=Noto+Sans+KR:wght@400;500;700&family=Gowun+Batang:wght@400;700&display=swap">
+<style>
+  :root{ --bg:#F7F3EA; --blue:#0033A0; --gold:#B8891C; --red:#B03A2E; --dark:#2B2420; --ink:#26221C; --body:#5C564E; --slotL:#EDE7D9; --ltx:#EFE9DD; --dtx:#C9C0B1; --line:#DDD3BE;}
+  *{margin:0;padding:0;box-sizing:border-box;}
+  body{width:860px;font-family:'Noto Sans KR',sans-serif;color:var(--ink);background:#fff;}
+  section{padding:110px 90px;display:flex;flex-direction:column;gap:28px;position:relative;overflow:hidden;text-align:center;}
+  .shead{display:flex;flex-direction:column;align-items:center;gap:14px;position:relative;z-index:1;}
+  .ghost{position:absolute;top:30px;right:48px;font-family:'Noto Serif KR',serif;font-weight:900;font-size:120px;line-height:1;color:rgba(38,34,28,0.05);z-index:0;}
+  .dark .ghost,.navy .ghost{color:rgba(255,255,255,0.05);}
+  .eyebrow{font-size:12px;font-weight:700;letter-spacing:5px;color:var(--gold);}
+  .rule{width:44px;height:2px;background:var(--gold);}
+  h1{font-family:'Noto Serif KR',serif;font-weight:900;font-size:50px;line-height:1.42;position:relative;z-index:1;}
+  h2{font-family:'Noto Serif KR',serif;font-weight:700;font-size:33px;line-height:1.5;position:relative;z-index:1;}
+  h3{font-family:'Noto Serif KR',serif;font-weight:600;font-size:22px;line-height:1.6;position:relative;z-index:1;}
+  .accent{color:var(--gold);}
+  p{font-size:16px;line-height:2.05;color:var(--body);position:relative;z-index:1;}
+  em{font-style:normal;background:linear-gradient(transparent 62%, rgba(184,137,28,0.28) 62%);font-weight:500;color:var(--ink);}
+  .dark em,.navy em{background:linear-gradient(transparent 62%, rgba(233,200,122,0.22) 62%);color:var(--ltx);}
+  .serifline{font-family:'Gowun Batang',serif;font-size:19px;line-height:1.95;color:var(--ink);position:relative;z-index:1;}
+  .dark .serifline{color:var(--ltx);}
+  .dark{background:linear-gradient(180deg,#322A22 0%, #2B2420 100%);} .dark h1,.dark h2,.dark h3{color:var(--ltx);} .dark p{color:var(--dtx);}
+  .cream{background:var(--bg);} .white{background:#fff;}
+  .navy{background:linear-gradient(180deg,#14245C 0%, #101E4E 100%);} .navy h2,.navy h3{color:#F3EEE2;} .navy p{color:#AEB8DA;}
+  .seal{display:inline-flex;flex-direction:column;align-items:center;justify-content:center;width:36px;height:56px;background:var(--red);color:#F7F3EA;font-family:'Gowun Batang',serif;font-weight:700;font-size:13.5px;line-height:1.2;border-radius:3px;}
+  .slot{border:1.5px dashed #BCB09A;background:var(--slotL);color:#8A7F6C;font-size:12px;line-height:1.7;display:flex;flex-direction:column;gap:8px;align-items:center;justify-content:center;padding:16px;white-space:pre-line;z-index:1;}
+  .slot b{font-size:10.5px;letter-spacing:2.5px;color:#A08C60;font-weight:700;}
+  .dark .slot,.navy .slot{background:rgba(255,255,255,0.05);border-color:#6B6156;color:#A79C8C;}
+  .dark .slot b,.navy .slot b{color:#B8A26E;}
+  .quote{background:#fff;border-left:4px solid var(--blue);box-shadow:0 2px 14px rgba(38,34,28,0.07);padding:32px 36px;font-family:'Gowun Batang',serif;font-size:17.5px;line-height:1.95;color:var(--ink);text-align:left;z-index:1;}
+  .quote small{display:block;margin-top:14px;font-family:'Noto Sans KR';font-size:12px;color:#989082;}
+  .counter{background:var(--dark);color:var(--dtx);padding:40px 44px;text-align:left;font-size:15.5px;line-height:2.0;border-left:4px solid var(--gold);z-index:1;}
+  .counter b{color:#E9C87A;font-weight:500;}
+  .divider{display:flex;align-items:center;gap:14px;justify-content:center;color:#C0B49A;z-index:1;}
+  .divider::before,.divider::after{content:'';width:120px;height:1px;background:var(--line);}
+  .divider span{font-size:12px;letter-spacing:2px;}
+  .dark .divider::before,.dark .divider::after,.navy .divider::before,.navy .divider::after{background:rgba(255,255,255,0.15);}
+  .chart{background:#fff;border:1px solid var(--line);box-shadow:0 2px 14px rgba(38,34,28,0.06);padding:38px 42px;display:flex;flex-direction:column;gap:20px;z-index:1;}
+  .chart .title{font-weight:700;font-size:15.5px;}
+  .row{display:flex;align-items:center;gap:14px;}
+  .row .lb{width:56px;font-size:13.5px;font-weight:500;color:var(--body);text-align:right;}
+  .dots{display:flex;gap:7px;} .dot{width:21px;height:21px;border-radius:50%;}
+  .d-mid{background:#8FA3D9;} .d-off{background:#EDE7D9;border:1px solid #D8CEB9;}
+  .row .n{font-family:'Noto Serif KR',serif;font-size:15px;font-weight:700;color:var(--blue);margin-left:2px;}
+  .row .n.zero{color:var(--red);}
+  .chart .cap{font-size:11px;color:#9A9184;line-height:1.6;text-align:left;}
+  .ingr{display:flex;gap:16px;z-index:1;}
+  .ingr .c{flex:1;background:#fff;border:1px solid var(--line);border-top:3px solid var(--gold);padding:28px 14px 22px;display:flex;flex-direction:column;gap:6px;align-items:center;}
+  .ingr .pc{font-family:'Noto Serif KR',serif;font-weight:900;font-size:40px;color:var(--blue);line-height:1.1;}
+  .ingr .nm{font-weight:700;font-size:15px;} .ingr .en{font-size:11px;color:#989082;letter-spacing:1px;}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px;z-index:1;}
+  .why{background:#fff;border:1px solid var(--line);padding:24px 20px;text-align:left;display:flex;gap:14px;align-items:flex-start;}
+  .why .no{min-width:30px;height:30px;border-radius:50%;background:var(--blue);color:#fff;font-family:'Noto Serif KR',serif;font-size:15px;display:flex;align-items:center;justify-content:center;}
+  .why b{display:block;font-size:15.5px;margin-bottom:3px;} .why span{font-size:12.5px;color:#989082;}
+  .stepflow{display:flex;align-items:stretch;z-index:1;}
+  .stepflow .st{flex:1;background:#fff;border:1px solid var(--line);padding:18px 8px;display:flex;flex-direction:column;gap:6px;align-items:center;justify-content:center;}
+  .stepflow .st .k{font-family:'Noto Serif KR',serif;font-weight:700;font-size:17px;color:var(--blue);}
+  .stepflow .st span{font-size:11.5px;color:var(--body);line-height:1.6;}
+  .stepflow .ar{display:flex;align-items:center;padding:0 7px;color:var(--gold);font-size:17px;}
+  .bars{display:flex;flex-direction:column;gap:9px;z-index:1;}
+  .bar{height:50px;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:500;color:#E8E4F0;}
+  .b1{background:#56608A;width:100%;} .b2{background:#67719B;width:86%;margin:0 auto;} .b3{background:#7B84AB;width:72%;margin:0 auto;}
+  .b4{background:var(--gold);width:30%;margin:0 auto;font-weight:700;color:#fff;}
+  .three{display:flex;gap:16px;z-index:1;}
+  .three div{flex:1;background:rgba(255,255,255,0.06);border:1px solid rgba(255,255,255,0.14);padding:26px 18px;font-size:13.5px;line-height:1.8;color:#AEB8DA;text-align:left;}
+  .three b{display:block;font-family:'Noto Serif KR',serif;font-size:17px;color:#F3EEE2;margin-bottom:10px;}
+  .invert{background:#fff;padding:60px 48px;display:flex;flex-direction:column;gap:18px;box-shadow:0 6px 30px rgba(0,0,0,0.25);z-index:1;}
+  .invert h2{color:var(--blue);} .invert p{color:var(--body);}
+  .bignum{font-family:'Noto Serif KR',serif;font-weight:900;font-size:44px;color:#F3EEE2;line-height:1.2;position:relative;z-index:1;}
+  .bignum small{font-size:20px;font-weight:700;}
+  .tl{display:flex;flex-direction:column;text-align:left;position:relative;z-index:1;padding-left:26px;}
+  .tl::before{content:'';position:absolute;left:7px;top:28px;bottom:28px;width:2px;background:var(--line);}
+  .node{display:flex;gap:18px;padding:20px 0;align-items:flex-start;position:relative;}
+  .node::before{content:'';position:absolute;left:-26px;top:28px;width:12px;height:12px;border-radius:50%;background:#B9AE99;border:3px solid #fff;box-shadow:0 0 0 1px var(--line);}
+  .node.win::before{background:var(--blue);}
+  .node .d{min-width:70px;font-family:'Noto Serif KR',serif;font-weight:700;font-size:14px;padding-top:3px;}
+  .node.fail .d{color:#A39A8B;} .node.win .d{color:var(--blue);}
+  .node .c{flex:1;font-size:14.5px;line-height:1.8;color:var(--body);font-family:'Gowun Batang',serif;}
+  .node .th{min-width:148px;height:82px;} .node .th .slot{height:100%;font-size:9.5px;padding:8px;line-height:1.5;}
+  .tiers{display:flex;flex-direction:column;gap:12px;z-index:1;}
+  .tier{display:flex;justify-content:space-between;align-items:center;background:#fff;border:1px solid var(--line);padding:20px 26px;}
+  .tier .tn{font-weight:700;font-size:16px;text-align:left;}
+  .tier .tn small{display:block;font-weight:400;font-size:13px;color:var(--body);margin-top:2px;}
+  .tier .pr{font-family:'Noto Serif KR',serif;font-weight:700;font-size:21px;color:var(--blue);white-space:nowrap;}
+  .tier.hot{border:2px solid var(--blue);box-shadow:0 4px 18px rgba(0,51,160,0.12);}
+  .badge{font-size:11px;font-weight:700;background:var(--red);color:#fff;padding:2px 8px;margin-right:8px;vertical-align:2px;border-radius:2px;}
+  .faq{display:flex;flex-direction:column;gap:16px;text-align:left;z-index:1;}
+  .faq>div{background:#fff;border:1px solid var(--line);padding:22px 26px;}
+  .faq b{font-size:15.5px;display:flex;gap:10px;margin-bottom:8px;align-items:baseline;}
+  .faq b::before{content:'Q';font-family:'Noto Serif KR',serif;color:var(--gold);font-size:17px;}
+  .faq p{font-size:13.5px;line-height:1.85;}
+  .note{font-size:11.5px;color:#9A9184;line-height:1.7;z-index:1;}
+  .navy .note{color:#7E88AC;}
+  svg.cst{position:absolute;z-index:0;}
+  /* ── 설계 정보 층 (와이어프레임 믹싱) ── */
+  .meta-strip{display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;font-size:10.5px;color:#9A9184;letter-spacing:0.5px;z-index:1;}
+  .dark .meta-strip,.navy .meta-strip{color:#8B8474;}
+  .navy .meta-strip{color:#7E88AC;}
+  .ms-chip{border:1px solid #CFC4AA;border-radius:99px;padding:2px 10px;background:rgba(255,255,255,0.5);}
+  .dark .ms-chip,.navy .ms-chip{border-color:rgba(255,255,255,0.2);background:rgba(255,255,255,0.05);}
+  .ms-keep{background:var(--gold);border-color:var(--gold);color:#fff;font-weight:700;}
+  .ms-heart{background:var(--red);border-color:var(--red);color:#fff;font-weight:700;}
+  .ms-g{color:#3E7A4E;font-weight:700;border-color:#9DBEA6;} .dark .ms-g,.navy .ms-g{color:#8FC79E;}
+  .ms-y{color:#A07A18;font-weight:700;border-color:#CBB06A;} .dark .ms-y,.navy .ms-y{color:#E9C87A;}
+  .ms-w{color:#7A7466;font-weight:700;}
+  /* 표지 대시보드 */
+  .cover{background:#221E19;padding:70px 70px 80px;display:flex;flex-direction:column;gap:26px;text-align:left;}
+  .cover .ttl{font-family:'Noto Serif KR',serif;font-weight:900;font-size:30px;color:#EFE9DD;line-height:1.4;}
+  .cover .sm{font-size:12px;color:#8B8474;line-height:1.7;}
+  .cover .lbl{font-size:11px;font-weight:700;letter-spacing:3px;color:var(--gold);}
+  .stats{display:flex;gap:12px;}
+  .stat{flex:1;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);padding:16px 12px;display:flex;flex-direction:column;gap:4px;align-items:center;}
+  .stat b{font-family:'Noto Serif KR',serif;font-size:19px;color:#EFE9DD;font-weight:700;}
+  .stat span{font-size:10.5px;color:#8B8474;letter-spacing:1px;}
+  .flowline{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:11.5px;color:#C9C0B1;}
+  .flowline .f{background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);border-radius:99px;padding:3px 12px;}
+  .flowline .fa{color:#6E675B;}
+  .covergrid{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+  .cbox{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.1);padding:18px 20px;display:flex;flex-direction:column;gap:8px;}
+  .cbox h4{font-size:11px;font-weight:700;letter-spacing:2px;color:var(--gold);}
+  .cbox p,.cbox li{font-size:12px;color:#B5AC9C;line-height:1.75;}
+  .cbox ul{list-style:none;} .cbox li{padding-left:12px;position:relative;}
+  .cbox li::before{content:'·';position:absolute;left:0;color:var(--gold);}
+.tiers{display:flex;flex-direction:column;gap:14px}.tier{margin:0}.seal{writing-mode:vertical-rl;text-orientation:upright;width:26px;height:66px;font-size:13px;line-height:1;letter-spacing:3px;padding:6px 0}.fill{margin:18px 0;border-radius:6px;overflow:hidden}.fill img{max-width:100%}.th img{width:100%;height:100%;object-fit:cover;border-radius:6px}::-webkit-scrollbar{display:none}html{scrollbar-width:none}</style>
+</head>
+<body>
+
+<!-- 표지 — 설계 대시보드 (와이어프레임 뼈대 v2 계승) -->
+
+
+<!-- HERO -->
+<section class="cream" style="padding-top:130px">
+  <svg class="cst" style="top:60px;left:70px" width="120" height="120" viewBox="0 0 120 120" fill="none">
+    <polyline points="10,90 40,55 62,70 95,20" stroke="#B8891C" stroke-opacity="0.35" stroke-width="1"/>
+    <circle cx="10" cy="90" r="3" fill="#B8891C" fill-opacity="0.5"/><circle cx="40" cy="55" r="4.5" fill="#B8891C" fill-opacity="0.5"/><circle cx="62" cy="70" r="2.5" fill="#B8891C" fill-opacity="0.5"/><circle cx="95" cy="20" r="3.5" fill="#B8891C" fill-opacity="0.5"/>
+  </svg>
+  <div class="shead">
+    <span class="seal">담백랩</span>
+    <div class="serifline" style="color:var(--gold)">조선의 세안법을, AI가 다시 계산했다</div>
+  </div>
+  <h1>깎아 쓰는<br>쌀겨오일 클렌징밤</h1>
+  <div class="divider"><span>RICE BRAN COMPLEX 6%</span></div>
+  <div class="fill"><img src="assets/9accac_HERO_%EC%8C%80%EB%9C%A8%EB%AC%BC%EC%82%AC%EB%B0%9C_%EB%93%80%EC%98%A4_2026-08-26.jpg" style="width:100%;display:block;object-fit:cover;height:540px;"></div>
+  <div class="fill"><img src="assets/98d4e3_G2_%EA%B9%8E%EA%B8%B0%EB%A7%A4%ED%81%AC%EB%A1%9C.gif" style="width:100%;display:block;object-fit:cover;height:420px;"></div>
+<div style="max-width:720px;margin:36px auto 0;padding:26px 28px;border:1.5px solid var(--gold);border-radius:10px;background:rgba(184,137,28,.06);text-align:center"><div class="eyebrow">OPEN 10 · 1</div><div style="font-family:Noto Serif KR,serif;font-weight:700;font-size:24px;line-height:1.5;margin-top:10px;color:var(--ink)">10월 1일(목) 본펀딩 오픈</div><p style="margin-top:8px">지금은 알림만 받는 오픈예정 페이지입니다.<br>알림을 신청해 두시면 오픈 당일, 선착 100세트 얼리버드 소식을 가장 먼저 받으십니다.<br><em>알림 신청은 무료이고, 구매 의무가 없습니다.</em></p><div style="display:inline-block;margin-top:14px;padding:12px 26px;border-radius:6px;background:var(--blue);color:#fff;font-weight:700;font-size:15px">▲ 페이지 상단 [알림 신청] 버튼</div><p class="note" style="margin-top:10px">오픈예정 기간(9/7~9/30)에는 결제가 열리지 않습니다. 본펀딩 10/1~10/23 · 발송 12월.</p></div></section>
+
+<!-- S1 -->
+<section class="dark">
+  <div class="ghost">01</div>
+  <div class="shead"><div class="eyebrow">쌀뜨물의 반전</div><div class="rule"></div></div>
+  <p style="opacity:.85;margin-bottom:26px">난방을 켜기 시작하면, 세안 뒤 당김이 먼저 오는 계절입니다.<br>그래서 이 밤은 겨울을 앞두고 만들었습니다 — 10월에 열고, 12월에 도착합니다.</p><h2>쌀 씻은 물을<br>버리지 않던 시절이 있었습니다</h2>
+  <p>뽀얀 쌀뜨물로 얼굴을 씻던 오래된 세안법.<br>수백 년을 이어온 그 직관은 — <em>방향이 맞았습니다.</em></p>
+  <div class="fill"><img src="assets/b157f1_S1%EC%BB%B71_%EC%8C%80%EB%9C%A8%EB%AC%BC_%EC%9E%AC%EC%83%9D%EC%84%B1A_%EC%8C%80%EC%94%BB%EB%8A%94%EC%86%90_2026-09-05.jpg" style="width:100%;display:block;object-fit:cover;height:460px;"></div>
+  <h3 class="accent" style="color:#E9C87A">그런데, 성분은 물에 없었습니다</h3>
+  <p>AI와 함께 데이터를 뒤졌습니다.<br>쌀의 항산화 성분 '감마오리자놀'은<br>물이 아니라, 쌀겨의 기름에 녹아 있었습니다.<br><em>방향은 맞았지만 — 답은 기름이었습니다.</em></p>
+  <div class="fill"><img src="assets/710106_G0_%EB%AC%BC%EA%B8%B0%EB%A6%84_%EB%B3%84%EC%9E%90%EB%A6%AC%EB%AA%A8%EC%85%98.gif" style="width:100%;display:block;object-fit:cover;height:400px;"></div>
+  <h3>그 답을, 조선은 이미 알고 있었습니다</h3>
+  <p>머릿결에 물이 아니라 동백 기름을 발랐던 사람들.<br>전통은 답을 먼저 살고 있었고, 데이터는 그 이유를 설명했습니다.</p>
+  <div class="fill"><img src="assets/d6295c_S1_%EC%BB%B73_%EB%8F%99%EB%B0%B1%EA%BD%83%EA%B3%BC%EC%94%A8%EC%95%97_%EB%93%80%EC%98%A4_2026-08-26.jpg" style="width:100%;display:block;object-fit:cover;height:420px;"></div>
+  <div class="divider"><span>✦</span></div>
+  <div class="serifline">전통과 데이터가 서로를 가리킬 때 —<br>우리는 이 밤(balm)을 만들기 시작했습니다.</div>
+</section>
+
+<!-- S2 -->
+<section class="white">
+  <div class="ghost">02</div>
+  <div class="shead"><div class="eyebrow">문제 제기</div><div class="rule"></div></div>
+  <h2>클렌징밤을 쓰다 보면,<br>두 번 멈칫하게 됩니다</h2>
+  <p>매일 손가락으로 퍼 올릴 때 — <em>이 손, 깨끗한가.</em><br>그리고 마지막에, <em>바닥에 남은 걸 긁지 못해 버릴 때.</em></p>
+  <div class="fill"><div style="display:flex;gap:8px"><div style="flex:1;overflow:hidden"><img src="assets/93ddb1_20260818_100744.jpg" style="width:100%;height:360px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/207063_Kive_%EA%B9%8E%EC%9D%B8%EB%A6%AC%EB%B3%B8_%ED%83%91%EB%B7%B0_2026-09-05.jpg" style="width:100%;height:360px;object-fit:cover;display:block"></div></div></div>
+  <h3>거품이 다 지워줄 거라 믿었습니다.<br>시험 결과는 달랐습니다.</h3>
+  <p>한국소비자원이 인기 폼클렌저 10개 제품의 세정력을 시험했습니다(2024.11).<br>기름때(클렌징 오일)는 전 제품이 '우수'하게 지웠습니다.<br>그런데 자외선차단제는 달랐습니다 — <em>'우수'는 한 제품도 없었습니다.</em></p>
+  <div class="chart">
+    <div class="title">자외선차단제 세정력 — 폼클렌저 10개 제품</div>
+    <div class="row"><span class="lb">우수</span><span class="dots"></span><span class="n zero">0개</span></div>
+    <div class="row"><span class="lb">양호</span><span class="dots"><span class="dot d-mid"></span><span class="dot d-mid"></span><span class="dot d-mid"></span><span class="dot d-mid"></span><span class="dot d-mid"></span></span><span class="n">5개</span></div>
+    <div class="row"><span class="lb">보통</span><span class="dots"><span class="dot d-off"></span><span class="dot d-off"></span><span class="dot d-off"></span><span class="dot d-off"></span><span class="dot d-off"></span></span><span class="n">5개</span></div>
+    <div class="cap">자체 재구성 도표 · 브랜드명 미표기 · 출처: 한국소비자원 비교공감 제2024-20호(2024.11)</div>
+  </div>
+  <div class="quote">"폼클렌저만 사용해 세정한 경우에는 자외선차단제 성분 일부가 피부에 남아 피부 트러블의 원인이 될 수 있어 이중 세안 등 꼼꼼한 세안이 필요했다."<small>— 한국소비자원 비교공감 제2024-20호 (2024.11)</small></div>
+  <p>소비자원의 권고는 간단합니다. 클렌징 오일 등으로 먼저 닦아낸 뒤, 폼클렌저로 씻어낼 것.<br>"오일이 1단계"라는 건 저희가 만든 주장이 아니라, <em>국가기관의 권고</em>입니다.<br>쌀겨밤은 그 1단계를 맡는 오일 베이스 클렌징입니다.</p>
+  <div class="divider"><span>✦</span></div>
+  <p class="serifline">마지막 하나. 더마 코스메틱은 왜 그렇게 비쌀까요.<br>가격의 상당 부분은 제품이 아니라 광고와 유통, 그리고 재고의 값입니다.<br><span style="color:var(--gold)">이 이야기는 아래에서, 숫자 대신 구조로. (→ §7)</span></p>
+</section>
+
+<!-- S3 -->
+<section class="cream">
+  <div class="ghost">03</div>
+  <div class="shead"><span class="seal">쌀겨밤</span><div class="eyebrow">솔루션 — 쌀겨밤 듀오</div><div class="rule"></div></div>
+  <h2>담백lab 쌀겨밤</h2>
+  <p>깎아 쓰는 본품 50g, 얇게 덜어 쓰는 미니 10g.<br><em>손대지 않고, 정량만, 마지막까지.</em></p>
+  <div class="fill"><img src="assets/a582b9_S3_%EC%BB%B71_%EC%9B%90%EB%AA%A9%EC%8A%A4%ED%8A%9C%EB%94%94%EC%98%A4_%EB%93%80%EC%98%A4_2026-08-26.jpg" style="width:100%;display:block;object-fit:cover;height:460px;"></div>
+  <h3>왜 깎아 쓰는 방식인가 —<br>저희가 찾은 답은 네 가지입니다</h3>
+  <div class="grid2">
+    <div class="why"><span class="no">1</span><div><b>손이 내용물에 닿지 않습니다</b><span>위생</span></div></div>
+    <div class="why"><span class="no">2</span><div><b>깎은 만큼만 씁니다</b><span>정량</span></div></div>
+    <div class="why"><span class="no">3</span><div><b>바닥까지 깎아 씁니다</b><span>끝까지</span></div></div>
+    <div class="why"><span class="no">4</span><div><b>쓸 때마다 새 단면입니다</b><span>신선한 단면</span></div></div>
+  </div>
+  <div class="fill"><div style="display:flex;gap:8px"><div style="flex:1;overflow:hidden"><img src="assets/571d00_Kive_%EB%8B%A4%EC%9D%B4%EC%96%BC%EA%B9%8E%EB%8A%94%EC%86%90_%EB%8B%A4%EC%9D%B4%EC%96%BC%EC%88%98%EC%A0%95_2026-09-05.jpg" style="width:100%;height:420px;object-fit:cover;display:block"></div><div style="flex:1;min-width:0"><div id="ytf" onclick="this.innerHTML='<video src=assets/e8ff1a_G1_%EB%8B%A4%EC%9D%B4%EC%96%BCASMR_%ED%9D%91%EB%B0%B1_%EC%86%8C%EB%A6%AC_10s_2026-09-05.mp4 autoplay controls playsinline loop style=position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000></video>'" style="position:relative;width:100%;height:420px;border-radius:6px;overflow:hidden;background:#111 url(assets/eb23b3_G1_%EB%8B%A4%EC%9D%B4%EC%96%BC_%EC%98%81%EC%83%81%ED%8F%AC%EC%8A%A4%ED%84%B0_2026-09-05.jpg) center/cover;cursor:pointer"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><div style="width:64px;height:64px;border-radius:50%;background:rgba(176,58,46,.92);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 18px rgba(0,0,0,.35)"><div style="width:0;height:0;border-left:22px solid #fff;border-top:13px solid transparent;border-bottom:13px solid transparent;margin-left:5px"></div></div></div><div style="position:absolute;left:0;right:0;bottom:0;padding:8px 12px;background:linear-gradient(transparent,rgba(0,0,0,.55));color:#fff;font-size:12.5px;font-weight:700">▶ 소리 켜고 재생 · 10초</div></div></div></div><p class="note" style="margin-top:10px">다이얼을 돌리면 내용물이 한 층 올라옵니다 — 래칫 소리 그대로. 영상 속 용기는 양산 용기와 같은 금형의 기성색 샘플을 흑백으로 담은 것으로, 색은 출시 사양(크림)과 다릅니다.</p></div>
+  <h3>립과 아이처럼 진한 부분만,<br>얇게 덜어 정리하는 미니</h3>
+  <p>파우치에 들어가는 부분 클렌징 — 외출 수정, 여행, 그리고 곁에 있는 사람에게.<br>부드럽게 닿는 실리콘 팁.</p>
+  <div class="fill"><div style="display:flex;gap:8px"><div style="flex:1;overflow:hidden"><img src="assets/4cf3ee_S3_%EC%BB%B73_%EB%AF%B8%EB%8B%88_%ED%8C%8C%EC%9A%B0%EC%B9%98%EC%97%AC%ED%96%89_2026-08-26.jpg" style="width:100%;height:320px;object-fit:cover;display:block"></div><div style="flex:1;min-width:0"><div id="ytf2" onclick="this.innerHTML='<video src=assets/a78467_G3_%EC%8A%A4%ED%8B%B1_%EC%82%AC%EA%B0%81%EC%82%AC%EA%B0%81_%EC%86%8C%EB%A6%AC_4s_2026-09-05.mp4 autoplay controls playsinline loop style=position:absolute;inset:0;width:100%;height:100%;object-fit:cover;background:#000></video>'" style="position:relative;width:100%;height:320px;border-radius:6px;overflow:hidden;background:#111 url(assets/552cbb_G3_%EC%8A%A4%ED%8B%B1_%EC%98%81%EC%83%81%ED%8F%AC%EC%8A%A4%ED%84%B0_2026-09-05.jpg) center/cover;cursor:pointer"><div style="position:absolute;inset:0;display:flex;align-items:center;justify-content:center"><div style="width:64px;height:64px;border-radius:50%;background:rgba(176,58,46,.92);display:flex;align-items:center;justify-content:center;box-shadow:0 4px 18px rgba(0,0,0,.35)"><div style="width:0;height:0;border-left:22px solid #fff;border-top:13px solid transparent;border-bottom:13px solid transparent;margin-left:5px"></div></div></div><div style="position:absolute;left:0;right:0;bottom:0;padding:8px 12px;background:linear-gradient(transparent,rgba(0,0,0,.55));color:#fff;font-size:12.5px;font-weight:700">▶ 사각사각 · 4초</div></div></div></div></div>
+  <h3>사용은 네 걸음이면 됩니다</h3>
+  <div class="stepflow">
+    <div class="st"><span class="k">깎고</span><span>다이얼을 돌려<br>필요한 만큼</span></div><div class="ar">→</div>
+    <div class="st"><span class="k">얹고</span><span>마른 얼굴에</span></div><div class="ar">→</div>
+    <div class="st"><span class="k">녹이고</span><span>체온으로<br>부드럽게</span></div><div class="ar">→</div>
+    <div class="st"><span class="k">씻어냅니다</span><span>미온수로<br>유화 워시오프</span></div>
+  </div>
+  <div class="fill"><div style="display:flex;gap:8px"><div style="flex:1;overflow:hidden"><img src="assets/98d4e3_G2_%EA%B9%8E%EA%B8%B0%EB%A7%A4%ED%81%AC%EB%A1%9C.gif" style="width:100%;height:230px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/6872a7_G_%EC%96%B9%EA%B8%B0_%EC%86%90%EB%93%B1.gif" style="width:100%;height:230px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/6c9c16_G_%EB%85%B9%EC%9D%B4%EA%B8%B0_%EA%B4%91%ED%83%9D.gif" style="width:100%;height:230px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/87be5f_G_%EC%94%BB%EA%B8%B0_%EB%AC%BC.gif" style="width:100%;height:230px;object-fit:cover;display:block"></div></div></div>
+</section>
+
+<!-- S4 -->
+<section class="white">
+  <div class="ghost">04</div>
+  <div class="shead"><div class="eyebrow">성분 물증</div><div class="rule"></div></div>
+  <h2>물에 녹는 유행 성분 대신,<br>밤 안에서 일하는 기름 <span style="color:var(--blue)">6%</span></h2>
+  <div class="ingr">
+    <div class="c"><span class="pc" style="font-size:22px;letter-spacing:1px">쌀겨</span><span class="nm">미강유(쌀겨오일)</span><span class="en">RICE BRAN OIL</span></div>
+    <div class="c"><span class="pc" style="font-size:22px;letter-spacing:1px">동백</span><span class="nm">동백오일</span><span class="en">CAMELLIA OIL</span></div>
+    <div class="c"><span class="pc" style="font-size:22px;letter-spacing:1px">오리자놀</span><span class="nm">정제 감마오리자놀</span><span class="en">γ-ORYZANOL 97%+</span></div>
+  </div>
+  <p>세 가지를 합쳐 6% — 연구소가 권장한 안정성 상한까지 오일을 채우고,<br>유효성분은 정제 감마오리자놀(순도 97%+)로 따로 더했습니다.<br>두 오일 모두 1%를 넘겨 배합했습니다 — <em>그래서 전성분표의 상단에 실제로 찍힙니다.</em><br>표시대상 알러젠(EU 26종)은 의도적으로 넣지 않았습니다. 성적서에는 "원료의 부산물·불순물에서 미량 검출될 수 있다"는 단서도 함께 적혀 있습니다. 그 문장까지 그대로 공개합니다.<br>쌀겨의 색은 그대로 받았습니다. 배치마다 색이 조금씩 다를 수 있습니다.</p>
+  <div class="fill"><img src="assets/5b5198_S4_%EC%84%B1%EB%B6%846%ED%8D%BC_%EC%8C%80%EA%B2%A8%ED%8C%8C%EC%9A%B0%EB%8D%94%EC%99%80%EB%AF%B8%EA%B0%95%EC%9C%A0_%EB%93%80%EC%98%A4_2026-08-26.jpg" style="width:100%;display:block;object-fit:cover;height:400px;"><div style="max-width:720px;margin:34px auto 0;text-align:left"><div class="eyebrow" style="text-align:center">서류로 공개합니다</div><div style="display:flex;gap:14px;margin-top:14px"><div style="flex:1"><div style="background:#fff;border:1px solid #DDD3BE;border-radius:6px;overflow:hidden;height:470px"><img src="assets/c47e7b_S4_%ED%96%A5%EB%A3%8C%EC%83%98%ED%94%8C_2%EB%B3%91_%EC%84%B8%EB%A1%9C_%EB%B8%94%EB%9F%AC%EB%B3%B8_2026-09-05.jpg" style="width:100%;height:100%;object-fit:cover;display:block"></div><p style="text-align:left;font-size:13px;line-height:1.7;color:#7E7566;margin:8px 0 0">선택한 향(WORK-46G03W)의 시향 샘플 두 병. 천연 에센셜오일 대신 배치마다 향이 같은 조합향료를 썼습니다. 아래 두 서류는 이 향에 대한 것입니다.</p></div><div style="flex:1"><div style="background:#fff;border:1px solid #DDD3BE;border-radius:6px;overflow:hidden;height:470px"><img src="assets/e8235a_S4_%EC%84%9C%EB%A5%98_IFRA_%ED%81%AC%EB%A1%AD_2026-09-05.png" style="width:100%;height:100%;object-fit:contain;display:block"></div><p style="text-align:left;font-size:13px;line-height:1.7;color:#7E7566;margin:8px 0 0">IFRA 적합 인증서 — 세안류(Category 9) 한도 2.950%. 저희 부향률은 0.5%입니다.</p></div></div><div style="margin-top:14px"><div style="background:#fff;border:1px solid #DDD3BE;border-radius:6px;overflow:hidden;height:520px"><img src="assets/25ccee_S4_%EC%84%9C%EB%A5%98_%EC%95%8C%EB%9F%AC%EC%A0%A026%EC%A2%85_%ED%81%AC%EB%A1%AD_2026-09-05.png" style="width:100%;height:100%;object-fit:contain;display:block"></div><p style="text-align:left;font-size:13px;line-height:1.7;color:#7E7566;margin:8px 0 0">향료사 알러젠 성적서 — EU 표시대상 26종, 함량 전 항목 공란. 하단 단서 문장까지 그대로 공개합니다.</p></div></div></div>
+  <div class="counter">유행하는 수용성 성분을 무수(無水) 밤에 넣으면 어떻게 될까요.<br>물이 없는 제형에서 수용성 성분은 녹을 자리가 없습니다.<br>라벨 맨 아래 0.0x%로 적히는 장식이 되기 쉽습니다.<br><b>저희는 밤이라는 제형 안에서 실제로 일하는 기름으로 6%를 채웠습니다.</b></div>
+</section>
+
+<!-- S5 -->
+<section class="cream">
+  <div class="ghost">05</div>
+  <div class="shead"><div class="eyebrow">AI 리서치</div><div class="rule"></div></div>
+  <h2>만료된 특허는,<br>공공재가 된 과학입니다</h2>
+  <p>AI와 함께 지난 특허들을 뒤졌습니다. 대기업이 출원했다가 만료된 배합의 기록들 —<br>그 안에서 쌀겨와 밤(balm)의 조합을 다시 주웠습니다.<br>그리고 살아있는 특허는 침해 여부까지 확인하고, 건드리지 않았습니다.<br><em>AI가 조사하고, 사람이 결정하고 책임집니다.</em></p>
+  <div class="fill"><img src="assets/b8443e_S5%EC%BB%B71_%ED%9B%84%ED%81%AC_%EB%B2%84%EB%A6%B0%ED%8A%B9%ED%97%88_720px_2026-07-28.png" style="width:100%;display:block;margin-bottom:8px"><img src="assets/c481ca_S5%EC%BB%B72_%EC%B6%94%EC%A0%815%EA%B1%B4_720px_2026-07-28.png" style="width:100%;display:block;margin-bottom:8px"><img src="assets/7cca43_S5%EC%BB%B73_%EC%84%A0%ED%83%9D_%EC%8C%80%EA%B2%A8%EC%98%A4%EC%9D%BC_v2_2026-09-05.png" style="width:100%;display:block;margin-bottom:8px"><img src="assets/142484_S5%EC%BB%B74_%EC%9B%90%EC%B9%99_QR%ED%95%A9%EC%84%B1_2026-09-05.png" style="width:100%;display:block;margin-bottom:8px"></div>
+</section>
+
+<!-- S6 -->
+<section class="white">
+  <div class="ghost">06</div>
+  <div class="shead"><div class="eyebrow">향</div><div class="rule"></div></div>
+  <h2>첫 향은, 아내가 골랐습니다</h2>
+  <p>AI가 데이터로 후보를 네 가지까지 좁혔고,<br>마지막 한 병은 가족의 코가 골랐습니다.<br><em>그린 머스크 — 깨우는 향이 아니라, 재우는 향.</em><br>얼굴을 씻고 잠들기 직전, 하루를 정돈하는 향입니다.</p>
+  <div class="fill"><div style="display:flex;gap:8px"><div style="flex:1;overflow:hidden"><img src="assets/8dcdee_%ED%96%A5%EC%84%A0%EC%A0%95_%EB%B0%95%EC%8A%A4%EA%B0%9C%EB%B4%89_20260708.jpg" style="width:100%;height:300px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/d424f5_%ED%96%A5%EC%84%A0%EC%A0%95_%EC%83%98%ED%94%8C4%EC%A2%85_%EB%B3%91%EB%9D%BC%EB%B2%A8_%EB%B8%94%EB%9F%AC%EB%B3%B8_20260820.jpg" style="width:100%;height:300px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/703a49_%ED%96%A5%EC%84%A0%EC%A0%95_%EC%B5%9C%EC%A2%85%EC%84%A0%EC%A0%95_WORK46G03W_%EB%B8%94%EB%9F%AC%EB%B3%B8_20260820.jpg" style="width:100%;height:300px;object-fit:cover;display:block"></div></div><div style="height:8px"></div><img src="assets/c4014f_S6_%ED%96%A5_%EC%B9%A8%EC%8B%A4%ED%98%91%ED%83%81_%EC%A0%80%EB%85%81%EB%AC%B4%EB%93%9C_2026-08-26.jpg" style="width:100%;display:block;object-fit:cover;height:400px;"></div>
+</section>
+
+<!-- S7 -->
+<section class="navy">
+  <div class="ghost">07</div>
+  <div class="shead"><div class="eyebrow" style="color:#E9C87A">거품 해부</div><div class="rule"></div></div>
+  <h2>화장품 가격에서,<br>'화장품'은 얼마일까요?</h2>
+  <p>저희도 업계에서 일하며 늘 품었던 질문입니다.<br>답부터 말하면 — <em>생각보다 훨씬 적습니다.</em></p>
+  <h3>시판 화장품 한 개의 가격에는<br>제품보다 큰 것들이 들어 있습니다</h3>
+  <div class="bars">
+    <div class="bar b1">유통 마진</div>
+    <div class="bar b2">광고 · 마케팅</div>
+    <div class="bar b3">브랜드 운영 · 재고 리스크</div>
+    <div class="bar b4">제품 그 자체</div>
+  </div>
+  <p class="note">시판 화장품 일반 — 구조는 업계 공개 자료 기준, 비율은 브랜드마다 다릅니다<br>참고: 유통 채널 실질판매수수료율 10.0~27.7%(업태별) — 공정거래위원회 2025년 실태조사(2024년 거래 기준)</p>
+  <h3>저희는 세 가지를 뺐습니다</h3>
+  <div class="three">
+    <div><b>광고비</b>광고 대신, 만드는 과정을 전부 공개했습니다. 이 페이지까지 오신 경로가 저희의 광고입니다.</div>
+    <div><b>유통 마진</b>매장을 거치지 않고, 여기서 바로 만납니다. 펀딩 플랫폼 수수료는 공개된 요율 그대로입니다.</div>
+    <div><b>재고 리스크</b>주문받은 만큼만 만듭니다. 팔릴지 모를 재고의 값을 가격에 미리 얹지 않습니다.</div>
+  </div>
+  <div class="invert">
+    <h2>저희는 정가를 부풀려서<br>할인율을 만들지 않습니다</h2>
+    <p>쌀겨밤 듀오의 정가는 <b style="font-family:'Noto Serif KR';font-size:22px;color:var(--blue)">29,000원</b>.<br>펀딩이 끝나도, 이 가격이 실제 판매가입니다.<br>지금의 펀딩가는 먼저 믿어주신 분들에 대한 예우일 뿐,<br>'60% 할인'을 만들기 위한 연출이 아닙니다.</p>
+  </div>
+  <div class="divider"><span>✦</span></div>
+  <p><em>목표 금액은 마케팅 숫자가 아닙니다.</em></p>
+  <div class="bignum">3,300<small>만 원</small></div>
+  <p>이 금액이 모이지 않으면, 실제로 생산을 시작할 수 없는 최소선입니다.<br>미달이면, 정직하게 무산됩니다.</p>
+</section>
+
+<!-- S8 -->
+<section class="white">
+  <div class="ghost">08</div>
+  <div class="shead"><div class="eyebrow">과정 공개</div><div class="rule"></div></div>
+  <h2>석 달의 기록을, 전부 남겼습니다</h2>
+  <p>17년 전 화장품 회사 명함에서 시작해, 혼자가 아니라 AI와 둘이서 —<br><em>실패까지 그대로 공개합니다.</em></p>
+  <div class="tl">
+    <div class="node fail"><span class="d">6/30</span><span class="c">"첫 이름이 막혔습니다. 두 번째 이름에도 그림자가 있었습니다."</span><span class="th"><span class="slot" style="padding:0;border:0;background:none;display:block;height:100%;overflow:hidden"><img src="assets/37e8af_%EC%83%81%ED%91%9C%EC%97%AC%EC%A0%95_01_%EB%AF%BC%EB%82%AF_%ED%82%A4%ED%94%84%EB%A6%AC%EC%8A%A4%EA%B2%80%EC%83%89_%EB%B8%94%EB%9F%AC%EB%B3%B8_20260730.png" style="width:100%;display:block;object-fit:cover;"></span></span></div>
+    <div class="node win"><span class="d">7/3</span><span class="c">"변리사는 '등록 가능성 50% 미만'이라고 정직하게 적어 보냈습니다. 그 정직함에 배웠습니다."</span><span class="th"><span class="slot" style="padding:0;border:0;background:none;display:block;height:100%;overflow:hidden"><img src="assets/708770_%EC%83%81%ED%91%9C%EC%97%AC%EC%A0%95_10_%EB%B3%80%EB%A6%AC%EC%82%AC%EC%9D%98%EA%B2%ACA_50%ED%8D%BC%EB%AF%B8%EB%A7%8C_%EB%B8%94%EB%9F%AC%EB%B3%B8_20260730.png" style="width:100%;display:block;object-fit:cover;"></span></span></div>
+    <div class="node fail"><span class="d">7/7</span><span class="c">"AI 직원 5명을 뽑았다가, 하루 만에 사무실을 닫았습니다."</span><span class="th"><span class="slot" style="padding:0;border:0;background:none;display:block;height:100%;overflow:hidden"><img src="assets/a1b051_AI%EC%98%A4%ED%94%BC%EC%8A%A4_%EC%82%AC%EB%AC%B4%EC%8B%A4%EC%A0%84%EA%B2%BD_5%EC%9D%B8%EA%B5%AC%EC%84%B1_%EB%B8%94%EB%9F%AC%EB%B3%B8_20260730.png" style="width:100%;display:block;object-fit:cover;"></span></span></div>
+    <div class="node fail"><span class="d">7/9~13</span><span class="c">"용기를 다 뜯어보고 알았습니다 — 이 용기, 못 씁니다. 전부 갈아엎고, 이번엔 떳떳한 용기를 골랐습니다."</span><span class="th"><span class="slot" style="padding:0;border:0;background:none;display:block;height:100%;overflow:hidden"><img src="assets/ebbe5e_%EC%9A%A9%EA%B8%B0%ED%8A%B9%ED%97%88_03_%EB%B6%84%ED%95%B4_%EB%B6%80%ED%92%885%EC%A2%85%EC%A0%84%EC%B2%B4_%EB%B8%94%EB%9F%AC%EB%B3%B8_20260730.jpg" style="width:100%;display:block;object-fit:cover;"></span></span></div>
+    <div class="node win"><span class="d">7/8~24</span><span class="c">"향도, 라벨도, 회사 이름도 — 마지막 결정은 가족이 했습니다."</span><span class="th"><span class="slot" style="padding:0;border:0;background:none;display:block;height:100%;overflow:hidden"><img src="assets/b32504_%EC%84%A4%EB%A6%BD_%EC%B9%B4%ED%86%A1%ED%88%AC%ED%91%9C_%EA%B0%80%EC%A1%B1%EB%B0%A9_%EB%B8%94%EB%9F%AC%EB%B3%B8_20260726.png" style="width:100%;display:block;object-fit:cover;"></span></span></div>
+    <div class="node win"><span class="d">7/24</span><span class="c">"그리고 회사를 하루 만에 차렸습니다. 오후 3시 28분, 사업자등록증이 나왔습니다."</span><span class="th"><span class="slot" style="padding:0;border:0;background:none;display:block;height:100%;overflow:hidden"><img src="assets/23f74d_%EC%84%A4%EB%A6%BD_%EC%82%AC%EC%97%85%EC%9E%90%EB%93%B1%EB%A1%9D%EC%A6%9D_%EB%B8%94%EB%9F%AC%EB%B3%B8_20260726.png" style="width:100%;display:block;object-fit:cover;"></span></span></div>
+  </div>
+  
+  <h3>잘된 것만 골라 보여드리지 않겠습니다</h3>
+  <p>이름 / 용기 / 조직 — <em>세 번 갈아엎었습니다.</em></p>
+  <div class="fill"><div style="display:flex;gap:8px"><div style="flex:1;overflow:hidden"><img src="assets/708770_%EC%83%81%ED%91%9C%EC%97%AC%EC%A0%95_10_%EB%B3%80%EB%A6%AC%EC%82%AC%EC%9D%98%EA%B2%ACA_50%ED%8D%BC%EB%AF%B8%EB%A7%8C_%EB%B8%94%EB%9F%AC%EB%B3%B8_20260730.png" style="width:100%;height:200px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/ebbe5e_%EC%9A%A9%EA%B8%B0%ED%8A%B9%ED%97%88_03_%EB%B6%84%ED%95%B4_%EB%B6%80%ED%92%885%EC%A2%85%EC%A0%84%EC%B2%B4_%EB%B8%94%EB%9F%AC%EB%B3%B8_20260730.jpg" style="width:100%;height:200px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/a1b051_AI%EC%98%A4%ED%94%BC%EC%8A%A4_%EC%82%AC%EB%AC%B4%EC%8B%A4%EC%A0%84%EA%B2%BD_5%EC%9D%B8%EA%B5%AC%EC%84%B1_%EB%B8%94%EB%9F%AC%EB%B3%B8_20260730.png" style="width:100%;height:200px;object-fit:cover;display:block"></div></div></div>
+  <div class="serifline">여기 못 담은 기록 전부 — 실패컷까지 — 단상자 QR로 이어집니다.<br><b style="color:var(--blue)">dambaeklab.com/log</b></div>
+</section>
+
+<!-- S9 -->
+<section class="cream">
+  <div class="ghost">09</div>
+  <div class="shead"><div class="eyebrow">제품 상세</div><div class="rule"></div></div>
+  <h2>겨울에도,<br>체온에서 풀리는 밤</h2>
+  <p>마른 얼굴에 부드럽게 녹여 메이크업과 피지를 풀어내고,<br>미온수를 만나면 뽀얗게 유화되어 씻겨 나갑니다.</p>
+  <div class="fill"><div style="display:flex;gap:8px"><div style="flex:1;overflow:hidden"><img src="assets/2106e0_S9_%EC%A0%9C%ED%98%95_%EB%B0%A4%EC%98%A4%EC%9D%BC_%EB%A7%A4%ED%81%AC%EB%A1%9C_2026-08-26.jpg" style="width:100%;height:320px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/96741a_G4_%EB%B0%A4%EC%98%A4%EC%9D%BC%ED%99%94.gif" style="width:100%;height:320px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/73eee9_G5_%EC%9B%8C%EC%8B%9C%EC%98%A4%ED%94%84%EC%9C%A0%ED%99%94.gif" style="width:100%;height:320px;object-fit:cover;display:block"></div></div></div>
+  <div class="stepflow">
+    <div class="st"><span class="k">①</span><span>다이얼을 돌려<br>필요한 만큼 깎기</span></div><div class="ar">→</div>
+    <div class="st"><span class="k">②</span><span>마른 손·마른 얼굴에<br>얹어 체온으로 녹이기</span></div><div class="ar">→</div>
+    <div class="st"><span class="k">③</span><span>메이크업과 어우러지게<br>마사지</span></div><div class="ar">→</div>
+    <div class="st"><span class="k">④</span><span>미온수로 씻기<br>이중 세안 시 1단계</span></div>
+  </div>
+  <div style="max-width:720px;margin:40px auto 0;background:#fff;border-radius:8px;overflow:hidden;border:1px solid var(--line)"><div style="height:380px;background:#fff"><img src="assets/ef6668_S9_%EC%A0%95%EB%B3%B4%EB%A9%B4_%EC%A0%9C%ED%98%95%EC%8A%A4%EB%A8%B8%EC%A7%80_2026-09-05.jpg" style="width:100%;height:100%;object-fit:cover;display:block"></div><div style="padding:26px 30px 30px;text-align:left"><div style="font-family:Noto Serif KR,serif;font-weight:700;font-size:19px;color:var(--ink);margin-bottom:12px">담백랩 쌀겨 클렌징 밤 <span style="font-family:Noto Sans KR,sans-serif;font-weight:400;font-size:14px;color:#7E7566">(본품 50g / 미니 10g)</span></div><div style="display:grid;grid-template-columns:118px 1fr;column-gap:22px;padding:14px 0;border-top:1px solid #EDE7DA;align-items:start"><div style="font-size:13px;font-weight:700;color:var(--ink);letter-spacing:.5px;line-height:1.7">제품명</div><div style="font-size:13.5px;line-height:1.9;color:var(--body)">담백랩 쌀겨 클렌징 밤 (본품 50g / 미니 10g)</div></div><div style="display:grid;grid-template-columns:118px 1fr;column-gap:22px;padding:14px 0;border-top:1px solid #EDE7DA;align-items:start"><div style="font-size:13px;font-weight:700;color:var(--ink);letter-spacing:.5px;line-height:1.7">전성분</div><div style="font-size:13.5px;line-height:1.9;color:var(--body)">세틸에틸헥사노에이트, 카프릴릭/카프릭트라이글리세라이드, 솔베스-30테트라올리에이트, 합성왁스, 쌀겨오일, 동백나무씨오일, 오리자놀, 향료, 카프릴릴글라이콜, 토코페롤</div></div><div style="display:grid;grid-template-columns:118px 1fr;column-gap:22px;padding:14px 0;border-top:1px solid #EDE7DA;align-items:start"><div style="font-size:13px;font-weight:700;color:var(--ink);letter-spacing:.5px;line-height:1.7">사용기한</div><div style="font-size:13.5px;line-height:1.9;color:var(--body)">제조일로부터 30개월 / 개봉 후 12개월</div></div><div style="display:grid;grid-template-columns:118px 1fr;column-gap:22px;padding:14px 0;border-top:1px solid #EDE7DA;align-items:start"><div style="font-size:13px;font-weight:700;color:var(--ink);letter-spacing:.5px;line-height:1.7">책임판매업자</div><div style="font-size:13.5px;line-height:1.9;color:var(--body)">원덕상회 (화장품책임판매업 등록 제54991호)</div></div><div style="display:grid;grid-template-columns:118px 1fr;column-gap:22px;padding:14px 0;border-top:1px solid #EDE7DA;align-items:start"><div style="font-size:13px;font-weight:700;color:var(--ink);letter-spacing:.5px;line-height:1.7">제조국</div><div style="font-size:13.5px;line-height:1.9;color:var(--body)">대한민국 — 제조업자 및 상세 정보는 리워드 정보 탭의 상품정보제공고시에 기재</div></div><div style="display:grid;grid-template-columns:118px 1fr;column-gap:22px;padding:14px 0;border-top:1px solid #EDE7DA;align-items:start"><div style="font-size:13px;font-weight:700;color:var(--ink);letter-spacing:.5px;line-height:1.7">사용할 때의<br>주의사항</div><div style="font-size:13.5px;line-height:1.9;color:var(--body)">① 화장품 사용 시 또는 사용 후 직사광선에 의하여 사용 부위가 붉은 반점, 부어오름 또는 가려움증 등의 이상 증상이나 부작용이 있는 경우 전문의 등과 상담할 것<br>② 상처가 있는 부위 등에는 사용을 자제할 것<br>③ 어린이의 손이 닿지 않는 곳에 보관할 것<br>④ 직사광선을 피해서 보관할 것</div></div></div></div>
+  <h2>라벨의 50g이 진짜인지,<br>직접 쟀습니다</h2>
+  <p>영점을 잡고, 올렸습니다 — <em>본품 51g. 미니 10g.</em><br>표기보다 부족하지 않게 채우는 것. 기본이지만, 그 기본을 보여드립니다.</p>
+  <div class="fill"><div style="display:flex;gap:8px"><div style="flex:1;overflow:hidden"><img src="assets/efc1c7_G7a_%EC%A0%80%EC%9A%B8_JAR51g.gif" style="width:100%;height:540px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/998df5_G7b_%EC%A0%80%EC%9A%B8_%EC%8A%A4%ED%8B%B110g.gif" style="width:100%;height:540px;object-fit:cover;display:block"></div></div></div>
+  <h3>여름 배송이 걱정됐습니다</h3>
+  <p>그래서 한여름, 문 앞에 사흘 방치된 샘플을 그대로 열어봤습니다.<br>무르지도, 갈라지지도 않았는지 — 그 기록을 남겼습니다.</p>
+  <div class="fill"><div style="display:flex;gap:8px"><div style="flex:1;overflow:hidden"><img src="assets/5fdf8e_%ED%8F%AD%EC%97%BC%EC%83%98%ED%94%8C_%EC%BB%B707_%EA%B7%B8%EB%9D%BC%EC%9D%B8%EB%8D%94%EC%97%B4%EA%B8%B0_%EB%9D%BC%EB%B2%A8%EC%97%86%EC%9D%8C.jpg" style="width:100%;height:260px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/121ef4_%ED%8F%AD%EC%97%BC%EC%83%98%ED%94%8C_%EC%BB%B708_%EA%B7%B8%EB%9D%BC%EC%9D%B8%EB%8D%94%EC%83%81%EB%A9%B4_%EB%9D%BC%EB%B2%A8%EC%97%86%EC%9D%8C.jpg" style="width:100%;height:260px;object-fit:cover;display:block"></div><div style="flex:1;overflow:hidden"><img src="assets/0e82f3_%ED%8F%AD%EC%97%BC%EC%83%98%ED%94%8C_%EC%BB%B709_%EC%8A%A4%ED%8B%B1%ED%81%B4%EB%A1%9C%EC%A6%88%EC%97%85_%EB%B8%94%EB%9F%AC%EB%B3%B8.jpg" style="width:100%;height:260px;object-fit:cover;display:block"></div></div></div>
+  <p>용기 품질로 크게 데인 경험이 있습니다. 예전에.<br>그래서 이번엔 <em>골든샘플을 정하고, 입고마다 검수합니다.</em><br>그라인더와 내용물의 궁합(경도)도 함께 테스트합니다.</p>
+<div style="max-width:720px;margin:56px auto 0"><div class="shead"><div class="eyebrow">개발 참여단 2주 기록</div><div class="rule"></div></div><h3 style="margin-top:14px">출시 전 샘플을 2주 써 본 두 사람의 기록입니다</h3><p style="margin-top:6px">좋은 말만 고르지 않았습니다. 아쉬운 점도 그대로 적습니다.</p><div style="display:flex;gap:16px;margin-top:22px;align-items:flex-start"><div style="flex:0 0 280px"><div style="border-radius:6px;overflow:hidden;height:498px"><img src="assets/55722b_G_%EC%B0%B8%EC%97%AC%EB%8B%A8_%EC%9C%A4%EB%9D%BC%EC%98%81_%EC%84%B8%EC%A0%95%EB%A0%A5%EC%9C%A0%ED%99%94_3s.gif" style="width:100%;height:100%;object-fit:cover;display:block"></div><p class="note" style="margin-top:8px;text-align:left">윤라영(28) — 아이라이너·립을 팔에 긋고 밤으로 녹여 지우는 실측 영상. 손·팔만 촬영.</p></div><div style="flex:1;display:flex;flex-direction:column;gap:10px"><div style="padding:16px 18px;background:#fff;border:1px solid var(--line);border-radius:8px;text-align:left"><div class="serifline" style="font-size:16px;line-height:1.8">“향은 은은한 비누향에 한방 느낌이 살짝. 14일 동안 세 번 적었는데 변질이나 방향이 바뀐 건 없었어요.”<div style="font-size:12px;color:#9A9184;margin-top:6px">alex(25) · 향 경시 기록 8/19 → 8/26 → 9/1</div></div></div><div style="padding:16px 18px;background:#fff;border:1px solid var(--line);border-radius:8px;text-align:left"><div class="serifline" style="font-size:16px;line-height:1.8">“쓰고 나면 굉장히 촉촉해요. 건성인 어머니 반응이 저보다 좋아서, 더 받을 수 있냐고 농담하셨을 정도.”<div style="font-size:12px;color:#9A9184;margin-top:6px">alex(25) · 최종 인터뷰 — 참여자 소감입니다</div></div></div><div style="padding:16px 18px;background:#fff;border:1px solid var(--line);border-radius:8px;text-align:left"><div class="serifline" style="font-size:16px;line-height:1.8">“아침 세안에 썼더니 이중 세안 없이는 기름기가 남았어요.” → 저녁 메이크업 클렌징 전용으로 쓰시길 권합니다. 밤은 지우는 단계이고, 마무리는 미온수 유화 또는 폼입니다.<div style="font-size:12px;color:#9A9184;margin-top:6px">alex(25) · 가장 아쉬운 점 — 그대로 싣습니다</div></div></div></div></div><p class="note" style="margin-top:14px;text-align:center"><b>개발 참여단 실사용 영상·후기 · 참여비를 지급한 유료 참여입니다.</b> 참여자 실명은 본인 요청에 따라 표기하지 않습니다.</p></div></section>
+
+<!-- S11 -->
+<section class="cream">
+  <div class="ghost">11</div>
+  <div class="shead"><div class="eyebrow">리워드</div><div class="rule"></div></div>
+  <h2>구성과 가격</h2><p style="margin-top:-6px">12월 발송 — 겨울 한가운데에서 첫 세안을 하실 수 있게.<br>본품은 집 세면대에, 미니는 겨울 외출과 여행 가방에.</p>
+  <div class="tiers">
+    <div class="tier hot" style="display:flex;align-items:center;gap:22px;padding:16px 20px 16px 16px;text-align:left"><div style="flex:0 0 230px;height:190px;overflow:hidden;border-radius:6px;background:#F7F3EA"><img src="assets/3dd74e_tier_T2_%EB%93%80%EC%98%A4_v2_2026-09-05.jpg" style="width:100%;height:100%;object-fit:cover;display:block"></div><div style="flex:1;min-width:0;word-break:keep-all"><div style="font-family:Noto Serif KR,serif;font-weight:700;font-size:19px;line-height:1.4;color:#1E1B18"><span style="color:#D9782D">T1</span><span style="color:#D9782D;margin:0 8px;font-weight:400">|</span>울트라 얼리버드 쌀겨밤 듀오</div><div style="font-size:13px;color:#5C564E;margin-top:6px;line-height:1.6">본품 50g + 미니 스틱 10g (듀오 1세트)</div><div style="margin-top:10px"><span style="display:inline-block;background:var(--gold);color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:3px;margin-right:6px;line-height:1.3">27% 할인</span><span style="display:inline-block;background:#B03A2E;color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:3px;margin-right:6px;line-height:1.3">선착 100세트 한정</span><span style="display:inline-block;background:#EEF2FA;color:#0033A0;font-size:11px;font-weight:700;padding:3px 8px;border-radius:3px;margin-right:6px;line-height:1.3">배송비 3,000원</span></div></div><div style="flex:0 0 150px;text-align:right"><div style="font-size:13px;color:#9A9184;text-decoration:line-through;white-space:nowrap">정가 29,000원</div><div style="font-size:13px;color:#7E7566;margin-top:2px">펀딩가</div><div class="pr" style="font-size:25px;white-space:nowrap;line-height:1.2">21,000원</div></div></div><div class="tier " style="display:flex;align-items:center;gap:22px;padding:16px 20px 16px 16px;text-align:left"><div style="flex:0 0 230px;height:190px;overflow:hidden;border-radius:6px;background:#F7F3EA"><img src="assets/3dd74e_tier_T2_%EB%93%80%EC%98%A4_v2_2026-09-05.jpg" style="width:100%;height:100%;object-fit:cover;display:block"></div><div style="flex:1;min-width:0;word-break:keep-all"><div style="font-family:Noto Serif KR,serif;font-weight:700;font-size:19px;line-height:1.4;color:#1E1B18"><span style="color:#D9782D">T2</span><span style="color:#D9782D;margin:0 8px;font-weight:400">|</span>기본 쌀겨밤 듀오</div><div style="font-size:13px;color:#5C564E;margin-top:6px;line-height:1.6">본품 50g + 미니 스틱 10g (듀오 1세트)</div><div style="margin-top:10px"><span style="display:inline-block;background:var(--gold);color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:3px;margin-right:6px;line-height:1.3">17% 할인</span><span style="display:inline-block;background:#EEF2FA;color:#0033A0;font-size:11px;font-weight:700;padding:3px 8px;border-radius:3px;margin-right:6px;line-height:1.3">배송비 3,000원</span></div></div><div style="flex:0 0 150px;text-align:right"><div style="font-size:13px;color:#9A9184;text-decoration:line-through;white-space:nowrap">정가 29,000원</div><div style="font-size:13px;color:#7E7566;margin-top:2px">펀딩가</div><div class="pr" style="font-size:25px;white-space:nowrap;line-height:1.2">24,000원</div></div></div><div class="tier " style="display:flex;align-items:center;gap:22px;padding:16px 20px 16px 16px;text-align:left"><div style="flex:0 0 230px;height:190px;overflow:hidden;border-radius:6px;background:#F7F3EA"><img src="assets/d463cb_tier_T3_2%EC%84%B8%ED%8A%B8_v2_2026-09-05.jpg" style="width:100%;height:100%;object-fit:cover;display:block"></div><div style="flex:1;min-width:0;word-break:keep-all"><div style="font-family:Noto Serif KR,serif;font-weight:700;font-size:19px;line-height:1.4;color:#1E1B18"><span style="color:#D9782D">T3</span><span style="color:#D9782D;margin:0 8px;font-weight:400">|</span>둘이서 듀오 2세트</div><div style="font-size:13px;color:#5C564E;margin-top:6px;line-height:1.6">본품 50g 2개 + 미니 스틱 10g 2개 · 하나는 선물용</div><div style="margin-top:10px"><span style="display:inline-block;background:var(--gold);color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:3px;margin-right:6px;line-height:1.3">22% 할인</span><span style="display:inline-block;background:#EEF2FA;color:#0033A0;font-size:11px;font-weight:700;padding:3px 8px;border-radius:3px;margin-right:6px;line-height:1.3">배송비 3,000원</span></div></div><div style="flex:0 0 150px;text-align:right"><div style="font-size:13px;color:#9A9184;text-decoration:line-through;white-space:nowrap">정가 58,000원</div><div style="font-size:13px;color:#7E7566;margin-top:2px">펀딩가</div><div class="pr" style="font-size:25px;white-space:nowrap;line-height:1.2">45,000원</div></div></div><div class="tier " style="display:flex;align-items:center;gap:22px;padding:16px 20px 16px 16px;text-align:left"><div style="flex:0 0 230px;height:190px;overflow:hidden;border-radius:6px;background:#F7F3EA"><img src="assets/54d700_tier_T4_4%EC%84%B8%ED%8A%B8_v2_2026-09-05.jpg" style="width:100%;height:100%;object-fit:cover;display:block"></div><div style="flex:1;min-width:0;word-break:keep-all"><div style="font-family:Noto Serif KR,serif;font-weight:700;font-size:19px;line-height:1.4;color:#1E1B18"><span style="color:#D9782D">T4</span><span style="color:#D9782D;margin:0 8px;font-weight:400">|</span>쟁여두기 듀오 4세트</div><div style="font-size:13px;color:#5C564E;margin-top:6px;line-height:1.6">본품 50g 4개 + 미니 스틱 10g 4개 · 1세트당 22,000원</div><div style="margin-top:10px"><span style="display:inline-block;background:var(--gold);color:#fff;font-size:11px;font-weight:700;padding:3px 8px;border-radius:3px;margin-right:6px;line-height:1.3">24% 할인</span><span style="display:inline-block;background:#EEF2FA;color:#0033A0;font-size:11px;font-weight:700;padding:3px 8px;border-radius:3px;margin-right:6px;line-height:1.3">무료배송</span></div></div><div style="flex:0 0 150px;text-align:right"><div style="font-size:13px;color:#9A9184;text-decoration:line-through;white-space:nowrap">정가 116,000원</div><div style="font-size:13px;color:#7E7566;margin-top:2px">펀딩가</div><div class="pr" style="font-size:25px;white-space:nowrap;line-height:1.2">88,000원</div></div></div><div class="tier " style="display:flex;align-items:center;gap:22px;padding:16px 20px 16px 16px;text-align:left"><div style="flex:0 0 230px;height:190px;overflow:hidden;border-radius:6px;background:#F7F3EA"><img src="assets/d2ba81_FREE_%ED%95%9C%EC%A7%80%EC%A0%95%EB%AC%BC_%EB%AF%B8%EB%8B%88_2026-08-26.jpg" style="width:100%;height:100%;object-fit:cover;display:block"></div><div style="flex:1;min-width:0;word-break:keep-all"><div style="font-family:Noto Serif KR,serif;font-weight:700;font-size:19px;line-height:1.4;color:#1E1B18"><span style="color:#D9782D">추가</span><span style="color:#D9782D;margin:0 8px;font-weight:400">|</span>미니 스틱 10g +1</div><div style="font-size:13px;color:#5C564E;margin-top:6px;line-height:1.6">듀오 리워드와 함께 신청 · 듀오 1세트당 최대 2개 · 단독 신청 불가</div><div style="margin-top:10px"><span style="display:inline-block;background:#EEF2FA;color:#0033A0;font-size:11px;font-weight:700;padding:3px 8px;border-radius:3px;margin-right:6px;line-height:1.3">본품에 동봉 · 추가 배송비 0원</span></div></div><div style="flex:0 0 150px;text-align:right"><div style="font-size:13px;color:#7E7566;margin-top:2px">펀딩가</div><div class="pr" style="font-size:25px;white-space:nowrap;line-height:1.2">8,900원</div></div></div><p class="note" style="margin-top:14px">※ 제품 이미지는 실제 디자인 데이터로 제작한 AI 연출 이미지입니다. 실제 리워드와 차이가 있을 수 있습니다.</p></div>
+  <p><em>정가 29,000원 — 부풀린 정가가 아니라, 펀딩 후 실제 판매가입니다.</em></p>
+  <div class="divider"><span>배송</span></div>
+  <p>배송비는 3,000원, 별도입니다. 저희는 배송비도 실비 그대로 받습니다.<br>2세트까지는 배송비 1건, 4세트는 무료배송입니다 — 많이 담을수록 배송비 비중은 낮아집니다.<br>(애드온 동봉 = 추가 배송비 0원)</p>
+  
+</section>
+
+<!-- S12 -->
+<section class="white">
+  <div class="ghost">12</div>
+  <div class="shead"><div class="eyebrow">메이커</div><div class="rule"></div></div>
+  <h2>더마를 만들던 사람이,<br>거품 뺀 더마를 만듭니다</h2>
+  <div class="fill"><img src="assets/60e849_S12%EC%BB%B71_%EC%96%BC%EA%B5%B4%EC%BB%B7_%ED%9D%91%EB%B0%B1_2026-09-05.jpg" style="width:100%;display:block;object-fit:cover;height:460px;"></div>
+  <p>안녕하세요, 원덕상회 대표 전원덕입니다.<br>2009년부터 화장품 회사 엔프라니에서 7년 넘게<br>제품이 만들어지고 움직이는 공급망을 관리했고,<br>그 뒤로도 줄곧 화장품이 만들어지는 현장 곁에 있었습니다.</p>
+  <div class="quote" style="border-left-color:var(--gold)">그 시간 동안 배운 것이 하나 있습니다.<br>좋은 화장품과 비싼 화장품은, 다른 말이라는 것.</div>
+  <div class="fill"><img src="assets/ae92b1_S12%EC%BB%B72_%EC%9E%91%EC%97%85%EC%BB%B7_%ED%81%AC%EB%A1%AD_%ED%9D%91%EB%B0%B1_2026-09-05.jpg" style="width:100%;display:block;object-fit:cover;height:380px;"></div>
+  <p>이번엔 회사가 아니라, 부엌 옆 작은 서재에서 시작했습니다.<br>직원은 없습니다. 대신 AI가 성분 데이터와 특허를 뒤지고,<br>결정과 책임은 사람이 집니다. 향은 아내가 골랐고,<br>회사 이름은 가족 투표로 정했습니다.</p>
+  <p class="serifline">담백lab은 이 쌀겨밤 하나로 끝나지 않습니다.<br>어렵고 비싼 더마를, 쉽고 정직한 가격으로 —<br><em>그 첫 번째 제품이 지금 이 페이지에 있습니다.</em></p>
+  <div class="shead"><span class="seal">담백랩</span></div>
+</section>
+
+<!-- S13 -->
+<section class="cream" style="padding-bottom:130px">
+  <div class="ghost">13</div>
+  <div class="shead"><div class="eyebrow">일정 · 배송 · FAQ</div><div class="rule"></div></div>
+  <h2>이 제품은 펀딩 종료 후<br>생산에 들어갑니다</h2>
+  <p>재고를 미리 만들지 않기 때문입니다.<br>발송 예정: 펀딩 종료 후 <em>12월 중 순차 발송(12/21~31 예정) — 겨울 한가운데 도착</em><br>일정이 바뀌면, 바뀐 날 바로 알려드립니다.</p>
+  <div class="faq">
+    <div><b>폼클렌저 하나로는 안 되나요?</b><p>한국소비자원 시험(비교공감 제2024-20호, 2024.11)에서 폼클렌저 10개 제품 모두 자외선차단제를 한 번에 지우지 못했습니다. 오일 베이스로 먼저 닦아내는 것이 소비자원의 권고입니다.</p></div>
+    <div><b>배송비는요?</b><p>3,000원 별도 — 실비 그대로 받습니다. 2세트도 배송비는 1건, 4세트는 무료배송, 추가 구성(미니)은 동봉이라 0원입니다.</p></div>
+    <div><b>색이 사진과 조금 달라요.</b><p>쌀겨의 색을 그대로 받아, 배치마다 색이 조금 다를 수 있습니다. 사전에 알려드리는 특성입니다.</p></div>
+    <div><b>문의는 어디로?</b><p>hello@dambaeklab.com — 대표가 직접 읽고 답합니다.<br>환불·교환은 와디즈 정책과 전자상거래법 기준을 따릅니다.</p></div>
+  </div>
+</section>
+
+
+<section class="cream" style="padding-top:60px;padding-bottom:60px"><div style="max-width:720px;margin:36px auto 0;padding:26px 28px;border:1.5px solid var(--gold);border-radius:10px;background:rgba(184,137,28,.06);text-align:center"><div class="eyebrow">OPEN 10 · 1</div><div style="font-family:Noto Serif KR,serif;font-weight:700;font-size:24px;line-height:1.5;margin-top:10px;color:var(--ink)">10월 1일(목) 본펀딩 오픈</div><p style="margin-top:8px">지금은 알림만 받는 오픈예정 페이지입니다.<br>알림을 신청해 두시면 오픈 당일, 선착 100세트 얼리버드 소식을 가장 먼저 받으십니다.<br><em>알림 신청은 무료이고, 구매 의무가 없습니다.</em></p><div style="display:inline-block;margin-top:14px;padding:12px 26px;border-radius:6px;background:var(--blue);color:#fff;font-weight:700;font-size:15px">▲ 페이지 상단 [알림 신청] 버튼</div><p class="note" style="margin-top:10px">여기까지 읽어 주셔서 고맙습니다. 10월 1일에 다시 뵙겠습니다.</p></div></section><section class="white" style="padding-bottom:120px"><div class="shead"><div class="eyebrow">제품 이미지 안내</div><div class="rule"></div></div><h3>제품 이미지 안내</h3><p style="text-align:left;max-width:720px;margin:0 auto;line-height:1.9">이 페이지의 제품 연출 이미지는 확정된 용기 디자인 데이터를 기반으로 AI 이미지 생성 도구로 제작했습니다. 제품의 형태·라벨·용량 표기는 실제 양산 사양과 동일하게 맞췄지만, 조명·질감·배경 등은 연출이며 실제 리워드와 차이가 있을 수 있습니다.<br>실물 양산품은 펀딩 종료 후 생산되므로, 오픈 시점에 실물 촬영본이 존재하지 않습니다. 생산이 완료되는 대로 실물 이미지로 교체하고 새소식으로 알려드리겠습니다.<br>원료·제형·사용 장면 등 현재 촬영이 가능한 부분은 실물 사진·영상을 그대로 사용했습니다.</p></section></body></html>
