@@ -52,6 +52,21 @@ footer .w .lab{color:var(--blue)}
 footer p{margin-top:10px;font-size:12.5px;color:#68738f;word-break:keep-all}
 footer a{color:var(--blue);text-decoration:none}
 </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18467417404"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'AW-18467417404');
+  function gtag_report_conversion(url) {
+    var done = false;
+    var go = function () { if (!done) { done = true; if (typeof(url) != 'undefined') { window.location = url; } } };
+    gtag('event', 'conversion', {'send_to': 'AW-18467417404/Q9veCKHA7bkdELza-eVE', 'event_callback': go});
+    setTimeout(go, 1200);
+    return false;
+  }
+</script>
 </head>
 <body>
 
@@ -165,9 +180,9 @@ footer a{color:var(--blue);text-decoration:none}
 
   <div class="cta">
     <h3>이 기록의 다음 장을, 같이 보시겠어요?</h3>
-    <p>10월 23일까지 와디즈에서 펀딩합니다. 리워드와 과정 공개 기록은 펀딩 페이지에서 보실 수 있습니다.</p>
+    <p>11월 30일까지 와디즈에서 앵콜 펀딩을 진행합니다. 리워드와 과정 공개 기록은 펀딩 페이지에서 보실 수 있습니다.</p>
     <div class="btns">
-      <a class="primary" href="https://www.wadiz.io/web/campaign/detail/415137?utm_source=maker_unknown&utm_medium=415137_web_log">와디즈에서 펀딩 보기</a>
+      <a class="primary" href="https://www.wadiz.io/web/campaign/detail/429282?utm_source=maker_unknown&utm_medium=429282_web_log" onclick="return gtag_report_conversion(this.href);">와디즈 앵콜 보기</a>
       <a href="https://instagram.com/dambaeklab">인스타그램 @dambaeklab</a>
       <a href="https://www.youtube.com/@dambaek_lab">유튜브 @dambaek_lab</a>
       <a href="https://www.threads.com/@dambaeklab">스레드 @dambaeklab</a>
